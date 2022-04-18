@@ -422,7 +422,7 @@ body {
 
 .rent-item {
   width: 370px;
-  margin-right: 0;
+  margin-right: 30px;
   background-color: #fdfdff;
   box-shadow: 0 4px 30px rgba(22, 49, 82, 0.12);
 }
