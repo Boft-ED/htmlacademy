@@ -539,7 +539,7 @@ body {
   content: "";
   position: absolute;
   top: 0;
-  right: 0;
+  left: 0;
   width: 60px;
   height: 60px;
   border: 1px solid #00c6bd;
