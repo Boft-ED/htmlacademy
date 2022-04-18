@@ -177,7 +177,7 @@ body {
 
 .slider-buttons {
   display: flex;
-  grid-row: 2 / 3;
+  grid-row: 3 / 3;
   grid-column: 9 / 12;
   margin-left: auto;
 }
@@ -332,7 +332,7 @@ body {
   border-bottom: 2px solid #00c6bd;
 }
 
-.blog-article > div {
+.blog-article>div {
   display: flex;
   flex-direction: column;
 }
@@ -506,7 +506,7 @@ body {
   width: 130px;
 }
 
-.services > p {
+.services>p {
   grid-column: 1 / 2;
   margin: 0 50px 20px 0;
   font-size: 16px;
@@ -551,7 +551,7 @@ body {
   background-image: url("../img/dish.svg");
   background-position: center;
   background-repeat: no-repeat;
-  
+
 }
 
 .services-item-drinks::before {
@@ -677,7 +677,7 @@ body {
   box-sizing: border-box;
 }
 
-.feedback-form input[type="checkbox"]:checked + .checkbox-label::before {
+.feedback-form input[type="checkbox"]:checked+.checkbox-label::before {
   background-color: #00c6bd;
   border: 3px solid #ffffff;
 }
@@ -908,8 +908,8 @@ body {
   line-height: 22px;
 }
 
-.main-news-content > p:first-child::first-letter,
-.main-news-content > *:first-child > p:first-child::first-letter {
+.main-news-content>p:first-child::first-letter,
+.main-news-content>*:first-child>p:first-child::first-letter {
   font-size: 73px;
   line-height: 65px;
   float: left;
@@ -1239,4 +1239,3 @@ body {
 .news-list-inner .news-article-footer {
   padding: 15px;
 }
-
